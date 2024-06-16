@@ -20,13 +20,13 @@ const Login = ({ navigation }) => {
                         marginVertical: 12,
                         color: COLORS.black
                     }}>
-                        Hi Welcome Back ! 👋
+                        Welcome Back ! 👋
                     </Text>
 
                     <Text style={{
                         fontSize: 16,
                         color: COLORS.black
-                    }}>HaKim miss you all 🥳 ! Log in to your account and enjoy</Text>
+                    }}>Log in to your account !</Text>
                 </View>
 
                 <View style={{ marginBottom: 12 }}>
@@ -113,7 +113,7 @@ const Login = ({ navigation }) => {
                         color={isChecked ? COLORS.primary : undefined}
                     />
 
-                    <Text>Remenber me 🫣</Text>
+                    <Text>Remenber me</Text>
                 </View>
 
                 <Button
